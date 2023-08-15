@@ -59,4 +59,9 @@ int main()
     // double doubleValue = 3.14159;
     // int intValue = (int)doubleValue;
     // cout << intValue << endl;
+
+    // C++ provides four casting operators: static_cast, dynamic_cast, reinterpret_cast, and const_cast. static_cast is commonly used for basic type conversions.
+    // double doubleValue = 3.14159;
+    // int intValue = static_cast<int>(doubleValue);
+    // cout << intValue;
 }
