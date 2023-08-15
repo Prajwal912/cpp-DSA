@@ -29,11 +29,14 @@ int main()
     cout << num << endl;
 
     char chara = 126;
-    cout << chara << endl; //126 ki val ~ hai
+    cout << chara << endl; // 126 ki val ~ hai
 
     bool newbl = 89;
-    cout << newbl << endl; //since it is an non zero val so it will be 1
+    cout << newbl << endl; // since it is an non zero val so it will be 1
 
     char newCh = false;
-    cout << newCh << endl; //since it is false that means 0 so it will come null
+    cout << newCh << endl; // since it is false that means 0 so it will come null
+
+    // char newInt = 1234567;
+    // cout << newInt << endl;
 }
