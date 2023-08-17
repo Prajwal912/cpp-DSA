@@ -15,11 +15,11 @@ int main()
     // }
     // a = cin.get();
 
-    int a, b;
+    // int a, b;
 
-    cout << "Enter the value of a" << endl;
+    // cout << "Enter the value of a" << endl;
 
-    cin>> a;
+    // cin>> a;
 
     // cout << "Enter a value of b" << endl;
 
@@ -33,14 +33,12 @@ int main()
     //    cout<< "b is grater than a";
     // }
 
-    if(a>0){
-       cout<< "a is +ve";
-    }
-    else{ 
-        if(a<0){
-       cout<< "a is -ve";
-    }else{
-        cout << "a is 0";
-    }
-    }
+    // if(a>0){
+    //    cout<< "a is +ve";
+    // }
+    // else if(a<0){
+    //    cout<< "a is -ve";
+    // }else{
+    //     cout << "a is 0";
+    // }
 }
