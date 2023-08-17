@@ -41,4 +41,14 @@ int main()
     // }else{
     //     cout << "a is 0";
     // }
+
+    int a = 9;
+    if(a==9){
+        cout<< "NINEY";
+    }
+     if(a > 0){
+        cout<< "+ve";
+    }else{
+         cout<< "-ve";
+    }
 }
