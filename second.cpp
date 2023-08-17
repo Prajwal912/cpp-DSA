@@ -21,15 +21,26 @@ int main()
 
     cin>> a;
 
-    cout << "Enter a value of b" << endl;
+    // cout << "Enter a value of b" << endl;
 
-    cin>> b;
+    // cin>> b;
 
-    if(a>b){
-       cout<< "a is grater than b";
+
+    // if(a>b){
+    //    cout<< "a is grater than b";
+    // }
+    // if(a<b){
+    //    cout<< "b is grater than a";
+    // }
+
+    if(a>0){
+       cout<< "a is +ve";
     }
-    if(a<b){
-       cout<< "b is grater than a";
+    else{ 
+        if(a<0){
+       cout<< "a is -ve";
+    }else{
+        cout << "a is 0";
     }
-
+    }
 }
