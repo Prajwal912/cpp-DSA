@@ -62,7 +62,7 @@ int main()
     // {
     //     cout << a+7;
     // }
-    
+
     // int a = 24;
     // if (a > 20)
     // {
@@ -74,4 +74,20 @@ int main()
     // }else{
     //      cout << "dont know";
     // }
+
+    char ch;
+    cout<<"enter your desired input"<<endl;
+    cin>>ch;
+    if (ch >= 'a' && ch <= 'z'){
+        cout<< "lower";
+    }else if(ch >= 'A' && ch <= 'Z'){
+        cout<<"upper";
+    }else if(ch >= '0' && ch <= '9'){
+        cout<<"number";
+    }else{
+        cout<<"please write any valid output";
+    }
+
+
+
 }
