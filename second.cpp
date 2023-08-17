@@ -1,7 +1,8 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
 
     // int n;
     // cin>>n;
@@ -12,14 +13,23 @@ int main() {
     // }else{
     //     cout << n << " "  << "is -ve";
     // }
+    // a = cin.get();
 
-   int a , b;
+    int a, b;
 
-   cin >> a >> b;
+    cout << "Enter the value of a" << endl;
 
-   cout << "the value of a is: " << a << " " << "and the value of b is: " << b << endl;
+    cin>> a;
 
+    cout << "Enter a value of b" << endl;
 
+    cin>> b;
 
+    if(a>b){
+       cout<< "a is grater than b";
+    }
+    if(a<b){
+       cout<< "b is grater than a";
+    }
 
 }
