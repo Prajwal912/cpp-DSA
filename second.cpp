@@ -13,6 +13,13 @@ int main() {
     //     cout << n << " "  << "is -ve";
     // }
 
+   int a , b;
+
+   cin >> a >> b;
+
+   cout << "the value of a is: " << a << " " << "and the value of b is: " << b << endl;
+
+
 
 
 }
