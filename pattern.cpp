@@ -54,26 +54,5 @@ int main()
     //     i++;
     // }
 
-
-//start from 1 and ends with n count
-    // int i = 1;
-    // int n;
-    // cin >> n;
-    // int end = 1;
-    // while (i <= n)
-    // {
-
-    //     int j = 1;
-    //     while (j <= n)
-    //     {
-    //         cout << end;
-    //         end++;
-    //         j++;
-    //     }
-
-    //     cout << endl;
-    //     i++;
-    // }
-
     
 }
